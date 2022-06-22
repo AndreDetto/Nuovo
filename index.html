@@ -1,0 +1,586 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+
+
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+            integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+
+        <link rel="stylesheet" href="css/index.css">
+
+        <title>Nuovo</title>
+    </head>
+
+    <body>
+
+        <div class="">
+
+            <!-- Top Bar  -->
+
+            <div class="row top-bar">
+                <div class="col-3 text-center align-self-center">
+                    <i class="fa-solid fa-bars fa-2x" onclick="openBar()"></i>
+                </div>
+
+                <div class="col-6 text-center text-white align-self-center mt-2">
+                    <h4>Discover</h4>
+                </div>
+
+                <div class="col-3 text-center align-self-center">
+                    <i class="fa-solid fa-magnifying-glass fa-2x" onclick="openSearch()"></i>
+                </div>
+            </div>
+
+
+            <!-- Drop from top Search bar -->
+
+            <div class="row ricerca bg-primary">
+
+                <div class="col-2"></div>
+
+                <div class="col-8 align-self-center text-center">
+                    <input class="campo-ricerca" type="search" name="YYY" id="search"
+                        placeholder="write here something">
+                </div>
+
+                <div class="col-2 align-self-center ">
+                    <i class="fa-solid fa-xmark fa-2x" onclick="openSearch()"></i>
+                </div>
+            </div>
+
+        </div>
+
+
+        <div class="container">
+
+            <!-- title -->
+
+            <div class="row title ml-2">
+                <div class="col-12 text-left">
+                    <h3>Something</h3>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing.</p>
+                </div>
+            </div>
+
+            <!-- click and drag -->
+
+            <div class="slider-container">
+                <div class="row">
+                    <div class="inner-slider">
+
+                        <div class="card col-5">
+                            <img class="card-img-top" src="assets/img/Scary_movie_3.gif" alt="">
+                            <div class="card-body">
+                                <div class="card-text">Lorem ipsum dolor sit amet.</div>
+                            </div>
+                        </div>
+
+                        <div class="card col-5">
+                            <img class="card-img-top" src="assets/img/japanWft.jpeg" alt="">
+                            <div class="card-body">
+                                <div class="card-text">Lorem ipsum dolor sit amet.</div>
+                            </div>
+                        </div>
+
+                        <div class="card col-5">
+                            <img class="card-img-top" src="assets/img/meanwhile_in_Japan.jpeg" alt="">
+                            <div class="card-body">
+                                <div class="card-text">Lorem ipsum dolor sit amet.</div>
+                            </div>
+                        </div>
+
+                        <div class="card col-5">2</div>
+                        <div class="card col-4">3</div>
+                        <div class="card col-4">4</div>
+                        <div class="card col-4">5</div>
+                        <div class="card col-4">6</div>
+                        <div class="card col-4">7</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- main page dark mode switch  -->
+
+            <div class="row main-switch">
+                <div class="col-10 text-left align-self-center">DISCOVER
+                    <h3>Dark Mode</h3>
+                </div>
+
+                <div class="col-2">
+                    <!-- Default switch -->
+                    <div class="custom-control custom-switch">
+                        <input name="pippo" type="checkbox" class="custom-control-input" id="customSwitches"
+                            onclick="darkMode()">
+                        <label class="custom-control-label" for="customSwitches"></label>
+                    </div>
+                </div>
+            </div>
+
+            <!-- main page component link -->
+
+            <div class="card">
+                <img class="card-img-top" src="assets/img/japan_seriously.jpeg" alt="Card image cap">
+                <div class="card-body">
+                    DISCOVER
+                    <h3 class="card-title">Components</h3>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                        card's
+                        content.</p>
+                    <a href="#" class="p-3 btn btn-lg btn-primary"><i class="fa-solid fa-cube m-2"></i>Preview</a>
+                </div>
+            </div>
+
+            <!-- main page pages link -->
+
+            <div class="card mt-5 mb-5">
+                <img class="card-img-top" src="assets/img/must_save_beer.jpeg" alt="Card image cap">
+                <div class="card-body">
+                    DISCOVER
+                    <h3 class="card-title">Pages</h3>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                        card's
+                        content.</p>
+                    <a href="#" class="p-3 btn btn-lg btn-primary"><i
+                            class="fa-regular fa-note-sticky m-2"></i>Preview</a>
+                </div>
+            </div>
+
+        </div>
+
+        <!-- closing div / pseudo-footer-->
+
+        <div class="closing text-center">
+            <h3 class="text-primary">Cunt<span>cake</span></h3>
+            <h6>Copyright &#169; ByMe 2022.</h6>
+            <p>
+                Cuntcake&reg; is my very first Mobile UI Template Kit.
+                <br>
+                Some copyright infringement may have occurred.
+            </p>
+
+            <!-- closing icons shenanigans -->
+
+            <div class="row text-center icon-row">
+
+                <div class="col-2">
+                    <i class="closing-icon linkedApp-1 fa-brands fa-facebook fa-2x"></i>
+                </div>
+
+                <div class="col-2 ">
+                    <i class="closing-icon linkedApp-2 fa-brands fa-twitter fa-2x"></i>
+                </div>
+
+                <div class="col-2 ">
+                    <i class="closing-icon linkedApp-3 fa-brands fa-linkedin fa-2x"></i>
+                </div>
+
+                <div class="col-2 ">
+                    <i class="closing-icon linkedApp-4 fa-brands fa-instagram fa-2x"></i>
+                </div>
+
+                <div class="col-2 ">
+                    <i class="closing-icon linkedApp-5 fa-brands fa-whatsapp fa-2x"></i>
+                </div>
+
+                <div class="col-2 ">
+                    <i class="closing-icon linkedApp-6 fa-solid fa-arrow-up fa-2x"></i>
+                </div>
+
+            </div>
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <!-- Main footer -->
+
+        <div class="row main-footer">
+
+            <a href="#home">
+                <div class="col text-center main-bottom-icon text-primary">
+                    <i class="fa-solid fa-house fa-2x"></i>
+                </div>
+            </a>
+
+            <div class="col text-center main-bottom-icon">
+                <a href="#components">
+                    <i class="fa-solid fa-cube fa-2x"></i>
+                </a>
+            </div>
+
+            <a href="#chat">
+                <div class="col text-center main-bottom-icon">
+                    <i class=" far fa-comment-dots fa-2x"></i>
+                    <sup class="bg-danger">7</sup>
+                </div>
+            </a>
+
+            <a href="#pages">
+                <div class="col text-center main-bottom-icon">
+                    <i class="fa-regular fa-note-sticky fa-2x"></i>
+                </div>
+            </a>
+
+            <a href="#sidebar">
+                <div class="col text-center main-bottom-icon">
+                    <i class="fa-solid fa-bars fa-2x" onclick="openBar()"></i>
+                </div>
+            </a>
+
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <!-- Left menu -->
+
+        <div class="left-bar">
+
+            <!-- left menu "top bar"  -->
+
+            <div class="row top-left">
+
+                <div class="col-3 align-self-center text-center">
+                    <img class="randomDude" src="assets/img/random_douche.jpeg" alt="Douche">
+                </div>
+
+                <div class="col-7 text-left align-self-center">
+                    <h5>Random Dude</h5>
+                    <i class="fas fa-map-marker-alt text-light mr-2"></i>Dude Location
+                </div>
+
+                <div class="col-2 align-self-center text-center ">
+                    <i class="fa-solid fa-xmark fa-2x" onclick="openBar()"></i>
+                </div>
+
+            </div>
+
+            <!-- left menu items -->
+
+            <div class="left-menu-items">
+
+                <a href="#discover">
+                    <div class="row left-item ">
+
+                        <div class="col-3 align-self-center text-center">
+                            <i class="left-icon fa-solid fa-house"></i>
+                        </div>
+
+                        <div class="col-6 text-left align-self-center" style="font-size: 1.1rem; ">
+                            Discover
+                        </div>
+
+                        <div class="col-2 text-right align-self-center ">
+                            <span class="badge badge-pill badge-danger"></span>
+                        </div>
+
+                        <div class="col-1 align-self-center text-left">
+                            <i class="fa-solid fa-chevron-right"></i>
+                        </div>
+
+                    </div>
+                </a>
+
+                <a href="#component">
+                    <div class="row left-item">
+
+                        <div class="col-3 align-self-center text-center">
+                            <i class="left-icon fa-solid fa-cube"></i>
+                        </div>
+
+                        <div class="col-6 text-left align-self-center" style="font-size: 1.1rem;">Components</div>
+
+                        <div class="col-2 text-right align-self-center ">
+                            <span class="badge badge-pill badge-danger"></span>
+                        </div>
+
+                        <div class="col-1 left-anchor align-self-center text-left">
+                            <i class="fa-solid fa-chevron-right"></i>
+                        </div>
+
+                    </div>
+                </a>
+
+                <a href="#pages">
+                    <div class="row left-item">
+
+                        <div class="col-3 align-self-center text-center">
+                            <i class="left-icon fa-regular fa-note-sticky"></i>
+                        </div>
+
+                        <div class="col-6 text-left align-self-center" style="font-size: 1.1rem;">Pages</div>
+
+                        <div class="col-2 text-right align-self-center ">
+                            <span class="badge badge-pill badge-danger"></span>
+                        </div>
+
+                        <div class="col-1 left-anchor align-self-center text-left">
+                            <i class="fa-solid fa-chevron-right"></i>
+                        </div>
+
+                    </div>
+                </a>
+
+                <a href="#chat">
+                    <div class="row left-item">
+
+                        <div class="col-3 align-self-center text-center">
+                            <i class="left-icon far fa-comment-dots"></i>
+                        </div>
+
+                        <div class="col-6 text-left align-self-center" style="font-size: 1.1rem;">Chat</div>
+
+                        <div class="col-2 text-right align-self-center ">
+                            <span class="badge badge-pill badge-danger">5</span>
+                        </div>
+
+                        <div class="col-1 left-anchor align-self-center text-left">
+                            <i class="fa-solid fa-chevron-right"></i>
+                        </div>
+
+                    </div>
+                </a>
+
+
+                <div class="row left-item">
+
+                    <div class="col-3 align-self-center text-center">
+                        <i class="left-icon far fa-moon"></i>
+                    </div>
+
+                    <div class="col-7 text-left align-self-center" style="font-size: 1.1rem;">Dark Mode</div>
+
+                    <div class="col-2">
+                        <!-- Default switch -->
+                        <div class="custom-control custom-switch">
+                            <input type="checkbox" class="custom-control-input" name="pippo" id="customSwitches1"
+                                onclick="darkMode()">
+                            <label class="custom-control-label" for="customSwitches1"></label>
+                        </div>
+                    </div>
+
+                </div>
+
+                <h3 class="friends font-weight-light ml-2">Friends</h3>
+
+                <!-- Friends -->
+
+                <a href="#chat">
+                    <div class="row left-item">
+
+                        <div class="col-3">
+                            <div class="align-self-center text-center">
+                                <img class="left-pics" src="assets/img/Dude_Douche.jpeg" alt="Douche">
+                            </div>
+                        </div>
+
+                        <div class="col-6 text-left align-self-center" style="font-size: 1.1rem;">Douche Dude</div>
+
+                        <div class="col-2 text-right align-self-center ">
+                            <span class="badge badge-pill badge-danger"></span>
+                        </div>
+
+                        <div class="col-1 left-anchor align-self-center text-left">
+                            <i class="fa-solid fa-chevron-right"></i>
+                        </div>
+
+                    </div>
+                </a>
+
+                <a href="#chat">
+                    <div class="row left-item">
+
+                        <div class="col-3">
+                            <div class="align-self-center text-center">
+                                <img src="assets/img/Douche_Dude.jpeg" alt="Dude" class="left-pics">
+                            </div>
+                        </div>
+
+                        <div class="col-6 text-left align-self-center" style="font-size: 1.1rem;">Dude Douche</div>
+
+                        <div class="col-2 text-right align-self-center ">
+                            <span class="badge badge-pill badge-danger">7</span>
+                        </div>
+
+                        <div class="col-1 left-anchor align-self-center text-left">
+                            <i class="fa-solid fa-chevron-right"></i>
+                        </div>
+
+                    </div>
+                </a>
+
+                <a href="#chat">
+                    <div class="row left-item">
+
+                        <div class="col-3">
+                            <div class="align-self-center text-center">
+                                <img src="assets/img/batman.jpeg" alt="Batman" class="left-pics">
+
+                            </div>
+                        </div>
+
+                        <div class="col-6 text-left align-self-center" style="font-size: 1.1rem;">Batman</div>
+
+                        <div class="col-2 text-right align-self-center ">
+                            <span class="badge badge-pill badge-danger"></span>
+                        </div>
+
+                        <div class="col-1 left-anchor align-self-center text-left">
+                            <i class="fa-solid fa-chevron-right"></i>
+                        </div>
+
+                    </div>
+                </a>
+
+                <a href="#chat">
+                    <div class="row left-item">
+
+                        <div class="col-3">
+                            <div class="align-self-center text-center">
+                                <img src="assets/img/Japan.jpeg" alt="Japan" class="left-pics">
+
+                            </div>
+                        </div>
+
+                        <div class="col-6 text-left align-self-center" style="font-size: 1.1rem;">Japan</div>
+
+                        <div class="col-2 text-right align-self-center ">
+                            <span class="badge badge-pill badge-danger">1</span>
+                        </div>
+
+                        <div class="col-1 left-anchor align-self-center text-left">
+                            <i class="fa-solid fa-chevron-right"></i>
+                        </div>
+
+                    </div>
+                </a>
+
+            </div>
+
+            <!-- left footer -->
+
+
+            <div class="row left-footer">
+
+                <a href="#user">
+                    <div class="col-3 text-center left-bottom-icon">
+                        <i class="fa-regular fa-user fa-2x"></i>
+                    </div>
+                </a>
+
+                <div class="col-3 text-center left-bottom-icon">
+                    <a href="#downloads">
+                        <i class="fas fa-file-download fa-2x"></i>
+                    </a>
+                </div>
+
+                <a href="settings">
+                    <div class="col-3 text-center left-bottom-icon">
+                        <i class="fas fa-cog fa-2x"></i>
+                    </div>
+                </a>
+
+                <a href="logOut">
+                    <div class="col-3 text-center left-bottom-icon">
+                        <i class="fas fa-sign-out fa-2x"></i>
+                    </div>
+                </a>
+
+            </div>
+
+        </div>
+
+
+
+        <!-- Courtain -->
+
+        <div class="black-courtain" onclick="openBar()"></div>
+
+
+
+
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <!-- JS Popper JQuery -->
+
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+            integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+            crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+            integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+            crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js"
+            integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s"
+            crossorigin="anonymous"></script>
+
+        <!-- Font-awsome -->
+        <script src="https://kit.fontawesome.com/fdd6d451f5.js" crossorigin="anonymous"></script>
+
+        <script src="js/index.js"></script>
+
+    </body>
+
+</html>
